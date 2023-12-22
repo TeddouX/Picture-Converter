@@ -11,7 +11,7 @@ Go into this repo's releases and download the executable. There is nothing else 
     
 ## Documentation
 
-Arguments:\
+Arguments: <br>
  - -h, --help: shows help message  
  - -f, --filepaths [FILEPATHS ...]: The images that you need converted  
  - -e, --extension {.heic,.jpeg,.png}: The file extension that you want as a result  
