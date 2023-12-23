@@ -71,7 +71,7 @@ def convert_to_heic(filepath: str):
     heic_filename += '.HEIC'
 
     try:
-        image = Image.open(i)
+        image = Image.open(filepath)
     except FileNotFoundError:
         print(f'File {filepath} not found. Passing to next file')
         return
